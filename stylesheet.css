@@ -1,0 +1,594 @@
+/*------------------------------------
+Basis
+-------------------------------------*/
+
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*------------------------------------
+Main-visual
+-------------------------------------*/
+#main-visual {
+    width: 100%;
+    height: 35vw;
+    background-position: center;
+    background-size: cover;
+    background-image:url(ページトップ.jpeg);
+    display: flex;
+    justify-content:center;
+    position: relative;
+    flex-direction: column;
+    padding-bottom: 100px;
+    margin-bottom: 70px;
+    background-color:rgba(255,255,255,0.3);
+    background-blend-mode:lighten;
+}
+
+#main-visual h1 {
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+.main-visual-text{
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.main-visual-text1{
+    margin-top: 100px;
+    transform: rotate(20deg);
+    position: absolute;
+    right:40px;
+}
+
+.main-visual-text1 h1 {
+    font-size: 3.0rem;
+}
+
+.main-visual-text1-accent {
+    font-size: 4rem;
+}
+
+.main-visual-text2{
+    display: block;
+    margin-top: 150px;
+    margin-bottom:30px;
+}
+
+.main-visual-accent {
+    color: red;
+    font-size: 7rem;
+}
+
+/*------------------------------------
+Trouble
+-------------------------------------*/
+#trouble {
+    background-color:	#F496AE;
+    display: flex;
+    justify-content: center;
+    width:90%;
+    margin: 0 auto;
+}
+
+.trouble-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.trouble-left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    padding-right: 0px;
+}
+
+.trouble-left-container {
+    border: black solid 1px;
+    width:90%;
+    height:30vw;
+    padding: 30px;
+
+}
+
+.trouble-left-thinking p{
+    font-size:1.5rem;
+}
+
+.trouble-left-trouble {
+    display: flex;
+    justify-content: space-around;
+}
+
+.trouble-left img {
+    width: 30%;
+}
+
+.trouble-left-trouble-text {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.trouble-left-trouble-text p {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.trouble-right {
+    width: 50%;
+    display:flex;
+    justify-content: center;
+}
+
+.trouble-right img {
+    width: 80%;
+    object-fit: contain;
+}
+
+/*------------------------------------
+Key
+-------------------------------------*/
+#key {
+    width: 100%;
+    height: 50vw;
+    background-size: cover;
+    padding-top:50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.key-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.key-button {
+    display: flex;
+    justify-content: center;
+    background-color: 	#f7c940;
+    width: 40%;
+    border-radius: 20px;
+    margin: 0 auto;
+    opacity: 2;
+    margin-bottom: 50px;
+}
+
+.key-button:hover {
+    opacity:0.7;
+}
+
+.key-button p {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.key-button-accent {
+    border-bottom: 5px solid white;
+}
+
+.key-title {
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+.key-title h3 {
+    font-size: 6rem;
+    margin: 0;
+}
+
+.key-image {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.key-image img{
+    width: 100%;
+} 
+
+/*------------------------------------
+Point
+-------------------------------------*/
+#point {
+    width:100%;
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    background-image: url(point-image.png);
+    background-position: center;
+    background-size: cover;
+}
+
+/*------------------------------------
+Profile
+-------------------------------------*/
+#profile{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.profile-image img {
+    width: 100%;
+}
+
+/*------------------------------------
+Important
+-------------------------------------*/
+#important {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+
+.important-container {
+    width: 85%;
+    border: black 8px solid;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 20px 0px;
+}
+
+.important-container h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    margin: 15px 0px;
+}
+
+.important-container p {
+    font-size: 1.5rem;
+    margin: 0;
+    margin: 10px 0px;
+}
+
+.important-marks {
+    width: 20%;
+    display: flex;
+    justify-content:space-between;
+    margin: 0 auto;
+
+}
+
+.important-marks img{
+    width: 25%;
+}
+
+/*------------------------------------
+Charm
+-------------------------------------*/
+#charm {
+    width: 100%;
+    height: 65vw;
+    background-image: url(charm-image.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+/*------------------------------------
+Coodinator
+-------------------------------------*/
+#coordinator {
+    width: 100%;
+    height: 40vw;
+    background-image: url(コーディネーター背景.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    background-color:rgba(255,255,255,0.3);
+    background-blend-mode:lighten;
+}
+
+.coordinator-container {
+    width: 80%;
+    height:40vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.coordinator-title {
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    z-index:2;
+    padding-bottom:10px;
+    position: absolute;
+    top:-50px;
+    left:100px;
+    border: 8px solid black;
+    border-radius: 20px;
+}
+
+.coordinator-title h3 {
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+.coordinator-introduction-box {
+    width: 100%;
+    background-color: white;
+    height: 30vw;
+    border: 8px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.coordinator-introduction-text {
+    border: 8px solid black;
+    width: 55%;
+    height: 20vw;
+}
+
+.coordinator-introduction-image {
+    width: 25%;
+    background-color: blue;
+    height: 20vw;
+    border-radius: 20px;
+}
+
+/*------------------------------------
+Voice
+-------------------------------------*/
+#voice {
+    background-image:url(Voice背景.jpeg) ;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    background-color:rgba(255,255,255,0.2);
+    background-blend-mode:lighten;
+}
+
+.voice-title{
+    width:40%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.voice-title h3 {
+    font-size: 4rem;
+}
+
+.voice-title img {
+    width: 25%;
+}
+
+.voice-img2 {
+    transform: scale(-1,1)
+}
+
+.voice-boxes {
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.voice-box{
+    width: 100%;
+    display:flex;
+    justify-content:space-around;
+    margin-bottom: 50px;
+}
+
+.voice-image {
+    background-color: blue;
+    border-radius: 10px;
+    width: 15%;
+    height: 8vw;
+}
+
+.voice-box-text {
+    border:black 6px solid;
+    width: 70%;
+    height: 8vw;
+}
+
+/*------------------------------------
+Plan
+-------------------------------------*/
+#plan {
+    background-image: url(PLAN背景.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-color:rgba(255,255,255,0.4);
+    background-blend-mode:lighten;
+    width: 100%;
+    height: 60vw;
+    display: flex;
+}
+
+.plan-title {
+    position: relative;
+    width: 30%;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.plan-title img {
+    position: absolute;
+    width: 80%;
+    top:-70px ;
+    left: 20px;
+}
+
+.plan-title h3{
+   font-size: 6rem;
+   margin: 0;
+
+}
+
+/*------------------------------------
+Q&A
+-------------------------------------*/
+#Q_A {
+    background-image: url(Q＆A背景（差し替え）.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-color:rgba(255,255,255,0.4);
+    background-blend-mode:lighten;
+    width: 100%;
+    height: 60vw;
+    display: flex; 
+}
+
+.Q_A-container {
+    width: 80%;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.Q_A-title {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.Q_A-title h3 {
+    font-size: 6rem;
+    margin: 0;
+}
+
+.Q_A-title img {
+    width:15%;
+    transform: scale(-1,1)
+}
+
+
+.Q_A-text-container {
+    border:solid black 8px;
+    width: 100%;
+    height: 40vw;
+}
+
+/*------------------------------------
+Consult
+-------------------------------------*/
+#consult {
+    background-image: url(最下部背景.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-color:rgba(255,255,255,0.4);
+    background-blend-mode:lighten;
+    width: 100%;
+    height: 60vw;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+#consult p {
+    font-size:3rem;
+    margin: 0;
+    text-align: center;
+
+}
+
+.consult-text1, 
+.consult-text2
+{
+    margin-bottom: 100px;
+    display: block;
+}
+
+.consult-button {
+    display: flex;
+    justify-content: center;
+    background-color: 	#f7c940;
+    width: 40%;
+    height: 7vw;
+    border-radius: 20px;
+    margin: 0 auto;
+    opacity: 2;
+    margin-bottom: 50px;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.consult-button:hover {
+    opacity:0.7;
+}
+
+.consult-button p {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+
+.consult-button-accent {
+    border-bottom: 5px solid white;
+}
+
+/*------------------------------------
+Footer
+-------------------------------------*/
+footer {
+    background-color:white;
+    width: 100%;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
